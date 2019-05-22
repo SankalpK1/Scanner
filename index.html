@@ -18,23 +18,25 @@
         <div class="container">
             <ul class="nav nav-pills pull-right">
                 <li><a href="index.html">All</a></li>
-                <li><a href="Kumar_AboutMe.html">About me</a></li>
+                <li><a href="reminder.html">Reminders</a></li>
             </ul>
-            <h2>Sankalp Kumar</h2>
+            
+        </div>
+        <div>
+            <main id="camera">
+            <!-- Camera sensor -->
+            <canvas id="camera--sensor"></canvas>
+            <!-- Camera view -->
+            <video id="camera--view" autoplay playsinline></video>
+            <!-- Camera output -->
+            <img src="//:0" alt="" id="camera--output">
+            <!-- Camera trigger -->
+            <button id="camera--trigger">Take a picture</button>
+            </main>
+            <!-- Reference to your JavaScript file -->
+            <script src="app.js"></script>
         </div>
     </header> 
-    <!-- Camera -->
-    <main id="camera">
-        <!-- Camera sensor -->
-        <canvas id="camera--sensor"></canvas>
-        <!-- Camera view -->
-        <video id="camera--view" autoplay playsinline></video>
-        <!-- Camera output -->
-        <img src="//:0" alt="" id="camera--output">
-        <!-- Camera trigger -->
-        <button id="camera--trigger">Take a picture</button>
-    </main>
-    <!-- Reference to your JavaScript file -->
-    <script src="app.js"></script>
+    
 </body>
 </html>
