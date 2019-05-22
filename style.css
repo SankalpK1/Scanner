@@ -26,7 +26,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
     bottom: 30px;
-    left: calc(50% - 100px);
+    left: calc(50% - 300px);
 }
 #switch--trigger{
     width: 200px;
@@ -40,7 +40,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
     bottom: 30px;
-    left: 400px;
+    left: calc(50% - 25px);
 }
 #otherswitch--trigger{
     width: 200px;
@@ -54,7 +54,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
     bottom: 30px;
-    left: 50px;
+    left: calc(50% - 100px);
 }
 .taken{
     height: 100px!important;
